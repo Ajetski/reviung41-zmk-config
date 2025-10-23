@@ -268,3 +268,6 @@ combos:
 - p: [31, 32]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [default]
+- p: [1, 2]
+  k: '&soft_off'
+  l: [default]
