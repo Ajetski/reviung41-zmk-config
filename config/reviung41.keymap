@@ -34,6 +34,8 @@
         tapping-term-ms = <300>;
 };
 
+&soft_off { hold-time-ms = <1500>; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -65,6 +67,11 @@
             timeout-ms = <50>;
             key-positions = <31 32>;
             bindings = <&kp RET>;
+            layers = <0>;
+        };
+        softoff {
+            bindings = <&soft_off>;
+            key-positions = <1 2>;
             layers = <0>;
         };
         
