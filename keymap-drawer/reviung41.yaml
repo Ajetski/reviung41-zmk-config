@@ -41,7 +41,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: funciton_keys}
   - $$mdi:keyboard-space$$
   - symbols
-  - numbers
+  - {t: 'Ctl+$$mdi:keyboard-space$$', h: numbers}
   symbols:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '!'
